@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<PolicyData_AgentInstance>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2017-01-20T06:18:06" ExportType="Replace" ModifiedDateTime="2017-01-23T21:54:49" UpdateMethod="LocalAPI" UpdatedBy="os:NT AUTHORITY/SYSTEM" Xid="CA.SM::AgentInstance@PS-00000000000000000000000089d3a8c0-thost.spsr12.6">
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>192.168.211.137</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.TrustedHostLink">
+                <LinkValue>
+                    <XID>CA.SM::TrustedHost@24-a21f9b08-0546-4eeb-b6d0-8713a4d8a4b6</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2017-01-23T21:54:49</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2016-11-14T01:36:04" ExportType="Replace" UpdateMethod="LocalAPI" UpdatedBy="os:NT AUTHORITY/SYSTEM" Xid="CA.SM::AgentInstance@PS-00000000000000000000000001000000-4x">
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>::1</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2016-11-14T01:36:04</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2016-05-23T03:34:53" ExportType="Replace" ModifiedDateTime="2017-01-24T11:53:47" UpdateMethod="LocalAPI" UpdatedBy="os:NT AUTHORITY/SYSTEM" Xid="CA.SM::AgentInstance@000080fe00000000442fe7795f1e5c51-0960-57427a5c-0990-03d37bd2">
+            <Property Name="CA.SM::AgentInstance.AgentIdFile">
+                <StringValue>C:\Program Files\CA\secure-proxy\proxy-engine\conf\defaultagent\AgentId.dat</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemIPAddresses">
+                <StringValue>192.168.211.137, fe80::79e7:2f44:515c:1e5f%11</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.AgentsName">
+                <StringValue>a.spsr12.6</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductSubType">
+                <StringValue>default</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.OSType">
+                <StringValue>Windows Server 2008 R2 </StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2017-01-24T11:53:46</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemName">
+                <StringValue>WIN-8BL0ORN7BK1</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductType">
+                <StringValue>SecureProxyServer</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ACOLink">
+                <LinkValue>
+                    <XID>CA.SM::AgentConfig@21-4b7dd947-22d7-408f-a140-ee00f0c26219</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.TrustedHostLink">
+                <LinkValue>
+                    <XID>CA.SM::TrustedHost@24-a21f9b08-0546-4eeb-b6d0-8713a4d8a4b6</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>192.168.211.137</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductVersion">
+                <StringValue>12.6.0000.2195</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HCOLink">
+                <LinkValue>
+                    <XID>CA.SM::HostConfig@21-15eed936-8d09-4266-8f7c-38aa917d15d9</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>3</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2016-05-23T03:34:47" ExportType="Replace" ModifiedDateTime="2017-01-20T05:54:20" UpdateMethod="GUI" UpdatedBy="siteminder" Xid="CA.SM::AgentInstance@PS-00000000000000000000000081d3a8c0-thost.spsr12.6">
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>192.168.211.129</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2016-05-23T03:34:47</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-10-20T04:46:49" ExportType="Replace" ModifiedDateTime="2015-10-28T23:44:45" UpdateMethod="LocalAPI" UpdatedBy="os:NT AUTHORITY/SYSTEM" Xid="CA.SM::AgentInstance@PS-00000000000000000000000099d3a8c0-thost.spstrainingmark">
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>192.168.211.153</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.TrustedHostLink">
+                <LinkValue>
+                    <XID>CA.SM::TrustedHost@24-a7e2f653-6e98-4e48-bf6b-27763b06feef</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2015-10-28T23:44:45</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-07-28T00:01:29" ExportType="Replace" ModifiedDateTime="2015-07-30T00:58:00" UpdateMethod="LocalAPI" UpdatedBy="os:NT AUTHORITY/SYSTEM" Xid="CA.SM::AgentInstance@000080fe00000000a48d0238077c1c22-04e0-55b5ae9c-0da8-0213292c">
+            <Property Name="CA.SM::AgentInstance.AgentIdFile">
+                <StringValue>C:\Program Files (x86)\CA\secure-proxy\proxy-engine\conf\defaultagent\AgentId.dat</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemIPAddresses">
+                <StringValue>192.168.211.146, fe80::3802:8da4:221c:7c07%11</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.AgentsName">
+                <StringValue>a.spsr12.52sp1cr2</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductSubType">
+                <StringValue>default</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.OSType">
+                <StringValue>Windows Server 2008 R2 </StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2015-07-30T00:58:00</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemName">
+                <StringValue>WIN-8BL0ORN7BK1</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductType">
+                <StringValue>SecureProxyServer</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ACOLink">
+                <LinkValue>
+                    <XID>CA.SM::AgentConfig@21-8f750325-b693-42f6-a624-e2d1bf66e873</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.TrustedHostLink">
+                <LinkValue>
+                    <XID>CA.SM::TrustedHost@24-3ee27f0c-457d-4576-8f6b-794a4f095f03</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>192.168.211.146</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductVersion">
+                <StringValue>12.52.0102.766</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HCOLink">
+                <LinkValue>
+                    <XID>CA.SM::HostConfig@21-15eed936-8d09-4266-8f7c-38aa917d15d9</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>3</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-07-28T00:01:29" ExportType="Replace" ModifiedDateTime="2015-10-20T04:46:19" UpdateMethod="LocalAPI" UpdatedBy="os:NT AUTHORITY/SYSTEM" Xid="CA.SM::AgentInstance@PS-00000000000000000000000086d3a8c0-thost.spstrainingmark">
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>192.168.211.134</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.TrustedHostLink">
+                <LinkValue>
+                    <XID>CA.SM::TrustedHost@24-a7e2f653-6e98-4e48-bf6b-27763b06feef</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2015-10-20T04:46:19</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-07-28T00:01:29" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::AgentInstance@000080fe00000000ff565002e17d9bfe-1284-5534b5a9-12c4-01053acf">
+            <Property Name="CA.SM::AgentInstance.AgentIdFile">
+                <StringValue>C:\Program Files (x86)\CA\secure-proxy\proxy-engine\conf\defaultagent\AgentId.dat</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemIPAddresses">
+                <StringValue>10.131.113.197, dc00:7a06:a112:1:250:56ff:fe9b:7de1, fe80::250:56ff:fe9b:7de1%10</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.AgentsName">
+                <StringValue>a.spsLOD12.5</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductSubType">
+                <StringValue>default</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.OSType">
+                <StringValue>Windows Server 2008 </StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2015-04-20T08:18:55</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemName">
+                <StringValue>ODOMA04-I146455</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductType">
+                <StringValue>SecureProxyServer</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ACOLink">
+                <LinkValue>
+                    <XID>CA.SM::AgentConfig@21-54d461f0-25d0-401a-b233-3fc36e7c686d</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.TrustedHostLink">
+                <LinkValue>
+                    <XID>CA.SM::TrustedHost@24-88b275fa-f9c8-426c-b25c-0a12aa931a2f</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>::1</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductVersion">
+                <StringValue>12.52.0101.640</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HCOLink">
+                <LinkValue>
+                    <XID>CA.SM::HostConfig@21-092c656f-544f-4411-80a2-b0b70e3c6a25</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>3</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-07-28T00:01:29" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::AgentInstance@000080fe00000000ff565002d5529bfe-10ec-5534afa6-0ec8-00737b5d">
+            <Property Name="CA.SM::AgentInstance.AgentIdFile">
+                <StringValue>C:\Program Files (x86)\CA\secure-proxy\proxy-engine\conf\defaultagent\AgentId.dat</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemIPAddresses">
+                <StringValue>10.131.112.133, dc00:7a06:a112:1:250:56ff:fe9b:52d5, fe80::250:56ff:fe9b:52d5%10</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.AgentsName">
+                <StringValue>a.spsLOD12.5</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductSubType">
+                <StringValue>default</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.OSType">
+                <StringValue>Windows Server 2008 </StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2015-04-20T08:01:21</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemName">
+                <StringValue>ODOMA04-I146454</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductType">
+                <StringValue>SecureProxyServer</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ACOLink">
+                <LinkValue>
+                    <XID>CA.SM::AgentConfig@21-54d461f0-25d0-401a-b233-3fc36e7c686d</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.TrustedHostLink">
+                <LinkValue>
+                    <XID>CA.SM::TrustedHost@24-88b275fa-f9c8-426c-b25c-0a12aa931a2f</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>::1</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductVersion">
+                <StringValue>12.5.0000.7511</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HCOLink">
+                <LinkValue>
+                    <XID>CA.SM::HostConfig@21-092c656f-544f-4411-80a2-b0b70e3c6a25</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>3</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-07-28T00:01:29" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::AgentInstance@PS-00000000000000000000000001000000-thost.r6sp5cr35-win2003">
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>::1</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2015-04-20T01:56:02</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.TrustedHostLink">
+                <LinkValue>
+                    <XID>CA.SM::TrustedHost@24-bc9f9c14-77a8-4a64-8c77-2a524be42b53</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-07-28T00:01:29" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::AgentInstance@PS-00000000000000000000000001000000-thost.r6sp5cr35-win2003-cVgMEamitU6+Yn23gvv+JIApNjHik96SXuV3tTJkogo=">
+            <Property Name="CA.SM::AgentInstance.AgentIdFile">
+                <StringValue>unknown</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemIPAddresses">
+                <StringValue>unknown</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductSubType">
+                <StringValue>ISAPI60</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.OSType">
+                <StringValue>Windows</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2015-04-15T02:52:30</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemName">
+                <StringValue>unknown</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductType">
+                <StringValue>WebAgent</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.TrustedHostLink">
+                <LinkValue>
+                    <XID>CA.SM::TrustedHost@24-bc9f9c14-77a8-4a64-8c77-2a524be42b53</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatId">
+                <StringValue>PS-00000000000000000000000001000000-thost.r6sp5cr35-win2003</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>::1</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductVersion">
+                <StringValue>6.0.0535.852</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>3</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-07-28T00:01:29" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::AgentInstance@000080fe0000000054e3b0559e69599a-0be4-550776c8-0be8-03d72ab2">
+            <Property Name="CA.SM::AgentInstance.AgentIdFile">
+                <StringValue>C:\Program Files\CA\webagent\win64\bin\IIS\AgentId.dat</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemIPAddresses">
+                <StringValue>192.168.211.128, 2001:0:9d38:6abd:3012:2efe:3f57:2c7f, fe80::3012:2efe:3f57:2c7f%13, fe80::55b0:e354:9a59:699e%15</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.AgentsName">
+                <StringValue>a.R12.51Sp1Agent</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductSubType">
+                <StringValue>IIS75</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.OSType">
+                <StringValue>Windows Server 2008 R2 </StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2015-04-14T06:16:28</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemName">
+                <StringValue>WIN-8BL0ORN7BK1</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductType">
+                <StringValue>WebAgent</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ACOLink">
+                <LinkValue>
+                    <XID>CA.SM::AgentConfig@21-9d11a054-d996-4e0c-bac4-5608423459db</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.TrustedHostLink">
+                <LinkValue>
+                    <XID>CA.SM::TrustedHost@24-8ad8f4f1-1c6f-4584-8aaf-75c1f0b3c513</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>192.168.211.128</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductVersion">
+                <StringValue>12.52.0101.640</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HCOLink">
+                <LinkValue>
+                    <XID>CA.SM::HostConfig@21-15eed936-8d09-4266-8f7c-38aa917d15d9</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>3</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-07-28T00:01:29" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::AgentInstance@PS-00000000000000000000000090d3a8c0-thost.spstrainingmark">
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>192.168.211.144</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2015-03-02T00:47:16</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.TrustedHostLink">
+                <LinkValue>
+                    <XID>CA.SM::TrustedHost@24-a7e2f653-6e98-4e48-bf6b-27763b06feef</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-07-28T00:01:29" ExportType="Replace" ModifiedDateTime="2017-05-11T11:13:56" UpdateMethod="LocalAPI" UpdatedBy="os:NT AUTHORITY/SYSTEM" Xid="CA.SM::AgentInstance@000080fe00000000891fbc2c722c573f-0c3c-54e4216d-0da4-03467a96">
+            <Property Name="CA.SM::AgentInstance.AgentIdFile">
+                <StringValue>C:\Program Files (x86)\CA\secure-proxy\proxy-engine\conf\defaultagent\AgentId.dat</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemIPAddresses">
+                <StringValue>192.168.211.141, 2001:0:9d38:6abd:3048:36a1:3f57:2c72, fe80::3048:36a1:3f57:2c72%13</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.AgentsName">
+                <StringValue>a.spsr12.52sp1</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductSubType">
+                <StringValue>default</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.OSType">
+                <StringValue>Windows Server 2008 R2 </StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2017-05-11T11:13:56</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemName">
+                <StringValue>WIN-8BL0ORN7BK1</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductType">
+                <StringValue>SecureProxyServer</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ACOLink">
+                <LinkValue>
+                    <XID>CA.SM::AgentConfig@21-0bf8eb85-b63a-42cd-a2da-50ab8ae8005e</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.TrustedHostLink">
+                <LinkValue>
+                    <XID>CA.SM::TrustedHost@24-08bd74ed-f6c2-447b-8ddb-9bdd66ef1afa</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>192.168.211.141</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductVersion">
+                <StringValue>12.52.0100.499</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HCOLink">
+                <LinkValue>
+                    <XID>CA.SM::HostConfig@21-15eed936-8d09-4266-8f7c-38aa917d15d9</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>3</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-07-28T00:01:29" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::AgentInstance@PS-0000000000000000000000008d54a8c0-thost.spstrainingmark">
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>192.168.84.141</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2015-01-21T23:21:01</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.TrustedHostLink">
+                <LinkValue>
+                    <XID>CA.SM::TrustedHost@24-a7e2f653-6e98-4e48-bf6b-27763b06feef</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-07-28T00:01:29" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::AgentInstance@PS-0000000000000000000000008254a8c0-thost.spstrainingmark">
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>192.168.84.130</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2014-10-09T08:08:55</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.TrustedHostLink">
+                <LinkValue>
+                    <XID>CA.SM::TrustedHost@24-a7e2f653-6e98-4e48-bf6b-27763b06feef</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-07-28T00:01:29" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::AgentInstance@PS-00000000000000000000000001000000-smr125sandbox1host">
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>::1</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2014-08-21T08:33:58</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.TrustedHostLink">
+                <LinkValue>
+                    <XID>CA.SM::TrustedHost@24-3d257140-1107-4d3f-a51a-fa0f91f2c5d7</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-07-28T00:01:29" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::AgentInstance@000000000000000000000000599e820a-26c9-53900b36-b61078e0-648f79b011eb">
+            <Property Name="CA.SM::AgentInstance.AgentIdFile">
+                <StringValue>/F6/apache/conf/AgentId.dat</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemIPAddresses">
+                <StringValue>10.130.158.89</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.AgentsName">
+                <StringValue>a.spsRedhat</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductSubType">
+                <StringValue>APACHE24</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.OSType">
+                <StringValue>Linux 2.6.32-131.0.15.el6.i686</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2014-06-05T11:37:20</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemName">
+                <StringValue>lodbl509vm034</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductType">
+                <StringValue>WebAgent</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ACOLink">
+                <LinkValue>
+                    <XID>CA.SM::AgentConfig@21-548d8c5d-4b8f-4c07-a6d0-4efe2ea9fbe3</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.TrustedHostLink">
+                <LinkValue>
+                    <XID>CA.SM::TrustedHost@24-c9d5dfb9-a8d6-40a7-9a47-211661aafadf</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>::1</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductVersion">
+                <StringValue>12.52.0101.564</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HCOLink">
+                <LinkValue>
+                    <XID>CA.SM::HostConfig@21-15eed936-8d09-4266-8f7c-38aa917d15d9</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>3</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-07-28T00:01:29" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::AgentInstance@000080fe00000000054dbd64826a7620-0bf8-52fb6abd-04b8-038f1a48">
+            <Property Name="CA.SM::AgentInstance.AgentIdFile">
+                <StringValue>C:\CA\secure-proxy\proxy-engine\conf\defaultagent\AgentId.dat</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemIPAddresses">
+                <StringValue>192.168.211.136, 2001:0:9d38:90d7:2c7f:3f92:3f57:2c77, fe80::2c7f:3f92:3f57:2c77%13</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.AgentsName">
+                <StringValue>a.webservices2</StringValue>
+                <StringValue>a.webservices2</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductSubType">
+                <StringValue>default</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.OSType">
+                <StringValue>Windows Server 2008 R2 </StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2015-02-11T11:32:44</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemName">
+                <StringValue>WIN-8BL0ORN7BK1</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductType">
+                <StringValue>SecureProxyServer</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ACOLink">
+                <LinkValue>
+                    <XID>CA.SM::AgentConfig@21-6e92ae85-728d-4798-b01a-d6c004db31db</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.TrustedHostLink">
+                <LinkValue>
+                    <XID>CA.SM::TrustedHost@24-d49c1b58-0af8-41a7-85f5-5c63a57212c1</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>192.168.211.136</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductVersion">
+                <StringValue>12.52.0100.491</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HCOLink">
+                <LinkValue>
+                    <XID>CA.SM::HostConfig@21-15eed936-8d09-4266-8f7c-38aa917d15d9</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>3</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-07-28T00:01:29" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::AgentInstance@00000000000000000000000001000000-1caf-52eb7aa0-a34aab70-539b4ef2edfd">
+            <Property Name="CA.SM::AgentInstance.AgentIdFile">
+                <StringValue>/opt/CA/secure-proxy/proxy-engine/conf/defaultagent/AgentId.dat</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemIPAddresses">
+                <StringValue>127.0.0.1, ::1</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.AgentsName">
+                <StringValue>a.SPSWebService</StringValue>
+                <StringValue>a.WebApp1</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductSubType">
+                <StringValue>default</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.OSType">
+                <StringValue>Linux 2.6.32-431.el6.x86_64</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2014-04-12T09:37:24</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemName">
+                <StringValue>localhost.localdomain</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductType">
+                <StringValue>SecureProxyServer</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ACOLink">
+                <LinkValue>
+                    <XID>CA.SM::AgentConfig@21-e52cf08c-0dd3-4c1b-9638-5aeb5455e094</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.TrustedHostLink">
+                <LinkValue>
+                    <XID>CA.SM::TrustedHost@24-f7e19165-a7c2-4164-9cef-6299546990d3</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>192.168.220.207</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductVersion">
+                <StringValue>12.52.0000.142</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HCOLink">
+                <LinkValue>
+                    <XID>CA.SM::HostConfig@21-15eed936-8d09-4266-8f7c-38aa917d15d9</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>3</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-07-28T00:01:29" ExportType="Replace" ModifiedDateTime="2016-08-03T03:22:30" UpdateMethod="LocalAPI" UpdatedBy="os:NT AUTHORITY/SYSTEM" Xid="CA.SM::AgentInstance@000080fe00000000d9c7645d482906fb-12c4-4f71c4a9-1074-01f44025">
+            <Property Name="CA.SM::AgentInstance.AgentIdFile">
+                <StringValue>C:\Program Files\CA\webagent\win64\bin\IIS\AgentId.dat</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemIPAddresses">
+                <StringValue>192.168.211.163, ::1</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.AgentsName">
+                <StringValue>www.kimmy.lab</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductSubType">
+                <StringValue>IIS70</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.OSType">
+                <StringValue>Windows Server 2008 R2 </StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2016-08-03T03:22:29</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemName">
+                <StringValue>SMR125SANDBOX1</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductType">
+                <StringValue>WebAgent</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ACOLink">
+                <LinkValue>
+                    <XID>CA.SM::AgentConfig@21-18f37d91-7503-46d4-b682-b114e8c6c760</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.TrustedHostLink">
+                <LinkValue>
+                    <XID>CA.SM::TrustedHost@24-3d257140-1107-4d3f-a51a-fa0f91f2c5d7</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>::1</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductVersion">
+                <StringValue>12.5.0000.732</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HCOLink">
+                <LinkValue>
+                    <XID>CA.SM::HostConfig@21-7de8124d-3d94-4024-972d-e0a1b736195f</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>3</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-07-28T00:01:29" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::AgentInstance@PS-000080fe00000000d9c7645d482906fb-smr125sandbox1host">
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>fe80::5d64:c7d9:fb06:2948%11</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2012-03-27T14:09:51</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.TrustedHostLink">
+                <LinkValue>
+                    <XID>CA.SM::TrustedHost@24-3d257140-1107-4d3f-a51a-fa0f91f2c5d7</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-07-28T00:01:29" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::AgentInstance@000080fe0000000000b9a55c43f425b6-0ccc-519305d3-0b88-0234321a">
+            <Property Name="CA.SM::AgentInstance.AgentIdFile">
+                <StringValue>C:\CA\secure-proxy\proxy-engine\conf\defaultagent\AgentId.dat</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemIPAddresses">
+                <StringValue>192.168.220.240, fe80::697c:71c3:2d24:8388%11</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.AgentsName">
+                <StringValue>a.spsR1251</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductSubType">
+                <StringValue>default</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.OSType">
+                <StringValue>Windows Server 2008 R2 </StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2014-01-10T09:19:03</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemName">
+                <StringValue>SMR125SANDBOX1</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductType">
+                <StringValue>SecureProxyServer</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ACOLink">
+                <LinkValue>
+                    <XID>CA.SM::AgentConfig@21-408929f0-f903-4129-b458-dec8f0b24f6a</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.TrustedHostLink">
+                <LinkValue>
+                    <XID>CA.SM::TrustedHost@24-6b62cdfe-4de1-4172-899d-83d248573828</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>192.168.220.240</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductVersion">
+                <StringValue>12.52.0000.142</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HCOLink">
+                <LinkValue>
+                    <XID>CA.SM::HostConfig@21-15eed936-8d09-4266-8f7c-38aa917d15d9</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>3</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-07-28T00:01:29" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::AgentInstance@PS-000000000000000000000000f0dca8c0-thost.spsr1251">
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>192.168.220.240</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2014-01-11T04:10:20</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.TrustedHostLink">
+                <LinkValue>
+                    <XID>CA.SM::TrustedHost@24-6b62cdfe-4de1-4172-899d-83d248573828</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-07-28T00:01:29" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::AgentInstance@PS-000000000000000000000000f0dca8c0-thost.spstrainingmark">
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>192.168.220.240</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2014-02-05T23:29:19</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.TrustedHostLink">
+                <LinkValue>
+                    <XID>CA.SM::TrustedHost@24-a7e2f653-6e98-4e48-bf6b-27763b06feef</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-07-28T00:01:29" ExportType="Replace" ModifiedDateTime="2015-10-28T23:45:15" UpdateMethod="LocalAPI" UpdatedBy="os:NT AUTHORITY/SYSTEM" Xid="CA.SM::AgentInstance@000080fe00000000c3717c698883242d-0da0-52d10247-0ab4-014873be">
+            <Property Name="CA.SM::AgentInstance.AgentIdFile">
+                <StringValue>C:\CA\secure-proxy\proxy-engine\conf\defaultagent\AgentId.dat</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemIPAddresses">
+                <StringValue>192.168.211.153, ::1</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.AgentsName">
+                <StringValue>a.spsr12.52</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductSubType">
+                <StringValue>default</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.OSType">
+                <StringValue>Windows Server 2008 R2 </StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2015-10-28T23:45:15</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemName">
+                <StringValue>SMR125SANDBOX1</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductType">
+                <StringValue>SecureProxyServer</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ACOLink">
+                <LinkValue>
+                    <XID>CA.SM::AgentConfig@21-408929f0-f903-4129-b458-dec8f0b24f6a</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.TrustedHostLink">
+                <LinkValue>
+                    <XID>CA.SM::TrustedHost@24-a7e2f653-6e98-4e48-bf6b-27763b06feef</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>192.168.211.153</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductVersion">
+                <StringValue>12.52.0000.142</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HCOLink">
+                <LinkValue>
+                    <XID>CA.SM::HostConfig@21-15eed936-8d09-4266-8f7c-38aa917d15d9</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>3</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-07-28T00:01:28" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::AgentInstance@PS-00000000000000000000000001000000-a.javatest">
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>::1</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2014-11-18T05:55:36</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-07-28T00:01:28" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::AgentInstance@PS-00000000000000000000000001000000-testagent">
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>::1</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2014-09-23T04:37:48</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-07-28T00:01:28" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::AgentInstance@0000000000000000000000007f000101-5642-21297602-6224-00132777">
+            <Property Name="CA.SM::AgentInstance.ProductType">
+                <StringValue>SampleSDK</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>::1</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2014-03-27T12:02:09</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemName">
+                <StringValue>odoma04-vm2.ca.com</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductSubType">
+                <StringValue>SDK Agent</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.OSType">
+                <StringValue>Linux</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.AgentIdFile">
+                <StringValue>AgentGUID.conf</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemIPAddresses">
+                <StringValue>155.35.166.74</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductVersion">
+                <StringValue>R12.5</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>3</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-07-28T00:01:28" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::AgentInstance@0000000000000000000000007f000101-7203-21216076-2463-09519864">
+            <Property Name="CA.SM::AgentInstance.ProductType">
+                <StringValue>SampleSDK</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>192.168.220.186</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2014-03-25T02:43:16</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemName">
+                <StringValue>sawk</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductSubType">
+                <StringValue>SDK Agent</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.OSType">
+                <StringValue>Linux</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.AgentIdFile">
+                <StringValue>AgentGUID.conf</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemIPAddresses">
+                <StringValue>127.0.1.1</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductVersion">
+                <StringValue>R12.5</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>3</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-07-28T00:01:28" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::AgentInstance@PS-000000000000000000000000badca8c0-a.javatest">
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>192.168.220.186</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2014-01-22T04:18:22</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-07-28T00:01:28" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::AgentInstance@PS-000000000000000000000000badca8c0-a.javatest-w6iTtnmFjmyXwDhX403BXcA/3qWGUDqULyll7pvF9vc=">
+            <Property Name="CA.SM::AgentInstance.AgentIdFile">
+                <StringValue>unknown</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemIPAddresses">
+                <StringValue>unknown</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductSubType">
+                <StringValue>WinNT</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.OSType">
+                <StringValue>Solaris</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2014-01-22T04:18:22</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemName">
+                <StringValue>unknown</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductType">
+                <StringValue>sdk</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatId">
+                <StringValue>PS-000000000000000000000000badca8c0-a.javatest</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>192.168.220.186</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductVersion">
+                <StringValue>4</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>3</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-07-28T00:01:28" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::AgentInstance@PS-000000000000000000000000b9dca8c0-a.javatest-w6iTtnmFjmyXwDhX403BXcA/3qWGUDqULyll7pvF9vc=">
+            <Property Name="CA.SM::AgentInstance.AgentIdFile">
+                <StringValue>unknown</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemIPAddresses">
+                <StringValue>unknown</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductSubType">
+                <StringValue>WinNT</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.OSType">
+                <StringValue>Solaris</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2013-08-10T02:44:50</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.SystemName">
+                <StringValue>unknown</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductType">
+                <StringValue>sdk</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatId">
+                <StringValue>PS-000000000000000000000000b9dca8c0-a.javatest</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>192.168.220.185</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.ProductVersion">
+                <StringValue>4</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>3</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.SM::AgentInstance" CreatedDateTime="2015-07-28T00:01:28" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::AgentInstance@PS-000000000000000000000000b9dca8c0-a.javatest">
+            <Property Name="CA.SM::AgentInstance.ConnectionIPAddress">
+                <StringValue>192.168.220.185</StringValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.HeartbeatTimestamp">
+                <DateValue>2013-08-10T02:44:50</DateValue>
+            </Property>
+            <Property Name="CA.SM::AgentInstance.FIPSMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+        </Object>
+</PolicyData_AgentInstance>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CA.CDS>
+    <Object Class="CA.CDS::Certificate" CreatedDateTime="2015-07-28T00:01:28" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.CDS::Certificate@9160a050-808c-480b-9087-78a513887d23">
+            <Property Name="CA.CDS::Certificate.Alias">
+                <StringValue>kimmyrootca</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.CRLRevStatusValue">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.CertificateData">
+                <StringValue>MIIDYTCCAkmgAwIBAgIQett5Q9Cj4rFHvsgnWv2F8jANBgkqhkiG9w0BAQUF
+
+ADBDMRMwEQYKCZImiZPyLGQBGRYDbGFiMRUwEwYKCZImiZPyLGQBGRYFa2lt
+
+bXkxFTATBgNVBAMTDEtJTU1ZLVJPT1RDQTAeFw0xMjAzMjcwMDU5MDhaFw00
+
+MjAzMjcwMTA5MDVaMEMxEzARBgoJkiaJk/IsZAEZFgNsYWIxFTATBgoJkiaJ
+
+k/IsZAEZFgVraW1teTEVMBMGA1UEAxMMS0lNTVktUk9PVENBMIIBIjANBgkq
+
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuUK6CoblKidn3SdOZt1/d4Bd6++m
+
+gWWfYzm44p0z4wboP9RQXr5vRDU2ewHv1DykWb9AESkuLTh8K8CPLu0IrXjy
+
+ojAb+EIx7AR8g3/frJ6qw1YVAuTtQDjnL7mjpFH6u8B822W5nJzHeMI538Lp
+
+uWWY1Gxj7fP15TWYQIDmpcLrOqckVY1eIEzOTh95C94aU7g04NNE7QeSyJ+E
+
+OKEej18FLXara/VPsg7OvduVdvAWWBVbSAqVNKTwf/f8s9soZ+hzlvJOuR5r
+
+2udmMtomSx3JBtBuqP9C7GGvFm0Bmcpd/uqXLUq8e/xcu72WyvqBbDRf+IRp
+
+m8ebYj5SHkKSdQIDAQABo1EwTzALBgNVHQ8EBAMCAYYwDwYDVR0TAQH/BAUw
+
+AwEB/zAdBgNVHQ4EFgQULqe8EtDm67Dv3wQgEYplncnGPRUwEAYJKwYBBAGC
+
+NxUBBAMCAQAwDQYJKoZIhvcNAQEFBQADggEBAK3mf1Xz8Ne3lO/X9eqhuzBO
+
+Q2fhm71mvsqxMRH6taqDTXf2+TVrqZrA6T2DqpQHQ+J6m7kBDzUyqZAmwEcq
+
+Wx967gJhcCp5EBMuHKfmAkGawv+V+b0/6Z6n2zoEw8GvaP5LHXNrpBi0j4xA
+
+ly5Pfy7LIZYVKYbULa+FaVbloVWHot/Kt4/n2ln4lDxth9583HD//1ynt2OX
+
+ce8XdHBWLL/fdrJEGsgkzVI2iFMzt7VoLYe+jV+mxFzpqu7z42K/+TGKVQ3d
+
+yJrX1IVpSOgIKM6mOJCDwGbhKIbOMyUMK/Fd4jp3BDBSmJnpUCDraOp94De8
+
+A1v5qq1KiN3W0wetywQ=
+
+</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.EnableCertValidFailover">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.IsFIPSApproved">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.IssuerDN">
+                <StringValue>CN=KIMMY-ROOTCA,dc=kimmy,dc=lab</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.OCSPRevStatusValue">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.PrimaryValidationMethod">
+                <NumberValue>2</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.SerialNumber">
+                <StringValue>7ADB7943D0A3E2B147BEC8275AFD85F2</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.SubjectName">
+                <StringValue>CN=KIMMY-ROOTCA,dc=kimmy,dc=lab</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.Type">
+                <NumberValue>3</NumberValue>
+            </Property>
+        </Object>
+</CA.CDS>

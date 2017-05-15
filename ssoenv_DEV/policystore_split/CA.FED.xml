@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CA.FED>
+    <Object Class="CA.FED::Certificate" CreatedDateTime="2015-07-28T00:01:29" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.FED::Certificate@7a466c20-5947-4d0b-8ffc-6fc26f2c6db5">
+            <Property Name="CA.FED::Certificate.Alias">
+                <StringValue>kimmyrootca</StringValue>
+            </Property>
+            <Property Name="CA.FED::Certificate.CertificateGUID">
+                <LinkValue>
+                    <XID>CA.CDS::Certificate@9160a050-808c-480b-9087-78a513887d23</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::Certificate.FIPSApproved">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Certificate.IssuerDN">
+                <StringValue>CN=KIMMY-ROOTCA,DC=kimmy,DC=lab</StringValue>
+            </Property>
+            <Property Name="CA.FED::Certificate.SerialNumber">
+                <StringValue>7adb7943d0a3e2b147bec8275afd85f2</StringValue>
+            </Property>
+            <Property Name="CA.FED::Certificate.Type">
+                <NumberValue>3</NumberValue>
+            </Property>
+        </Object>
+    <Object Class="CA.FED::OAuthEntityBase" CreatedDateTime="2015-07-28T00:01:28" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.FED::OAuthEntityBase@74344d1d-0b38-4174-a484-305a03a5206f">
+            <Property Name="CA.FED::OAuthEntityBase.Description">
+                <StringValue>Sample Client</StringValue>
+            </Property>
+            <Property Name="CA.FED::OAuthEntityBase.ID">
+                <StringValue>sampleClient</StringValue>
+            </Property>
+            <Property Name="CA.FED::OAuthEntityBase.Name">
+                <StringValue>SampleClient</StringValue>
+            </Property>
+            <Property Name="CA.FED::OAuthEntityBase.OAuthVersion">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.FED::OAuthEntityClientLocal.BaseURL">
+                <StringValue>http://client.example.com/</StringValue>
+            </Property>
+            <Property Name="CA.FED::OAuthEntityClientLocal.IsClientLocal">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::OAuthEntityClientLocal.RedirectURL">
+                <StringValue>http://client.example.com//affwebservices/public/oauthtokenconsumer</StringValue>
+            </Property>
+        </Object>
+</CA.FED>

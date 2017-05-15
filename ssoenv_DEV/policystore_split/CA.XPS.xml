@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CA.XPS>
+    <Object Class="CA.XPS::Expression" CreatedDateTime="2017-05-10T23:47:19" ExportType="Replace" UpdateMethod="GUI" UpdatedBy="siteminder" Xid="CA.XPS::Expression@#Test1">
+            <Property Name="CA.XPS::Expression.Expression">
+                <StringValue>("abc" + mail) </StringValue>
+            </Property>
+            <Property Name="CA.XPS::Expression.Flags">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.XPS::Expression.Name">
+                <StringValue>#Test1</StringValue>
+            </Property>
+        </Object>
+    <Object Class="CA.XPS::Expression" CreatedDateTime="2015-07-28T00:01:25" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.XPS::Expression@#TestExpression">
+            <Property Name="CA.XPS::Expression.Expression">
+                <StringValue>(%SM_AUTHENTICATIONLEVEL)</StringValue>
+            </Property>
+            <Property Name="CA.XPS::Expression.Flags">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.XPS::Expression.Name">
+                <StringValue>#TestExpression</StringValue>
+            </Property>
+        </Object>
+    <Object Class="CA.XPS::ExtractManifest" CreatedDateTime="2016-10-22T01:39:47" ExportType="Replace" UpdateMethod="Explorer" UpdatedBy="os:KIMMY/Administrator" Xid="CA.XPS::ExtractManifest@8aacbab9-f2dd-4c77-9b64-b7ed3c93e2b2">
+            <Property Name="CA.XPS::ExtractManifest.Description">
+                <StringValue>fred1</StringValue>
+            </Property>
+            <Property Name="CA.XPS::ExtractManifest.Name">
+                <StringValue>fred</StringValue>
+            </Property>
+            <Object Class="CA.XPS::ExtractManifestEntry" CreatedDateTime="2016-10-22T01:39:49" UpdateMethod="Explorer" UpdatedBy="os:KIMMY/Administrator" Xid="CA.XPS::ExtractManifestEntry@22b07548-00b0-4208-8ea9-f022630a1192">
+                <Property Name="CA.XPS::ExtractManifestEntry.ExtractXID">
+                    <StringValue>CA.SM::HostConfig@21-7de8124d-3d94-4024-972d-e0a1b736195f</StringValue>
+                </Property>
+                <Property Name="CA.XPS::ExtractManifestEntry.Mode">
+                    <NumberValue>1</NumberValue>
+                </Property>
+            </Object>
+            <Object Class="CA.XPS::ExtractManifestEntry" CreatedDateTime="2016-10-22T01:39:49" UpdateMethod="Explorer" UpdatedBy="os:KIMMY/Administrator" Xid="CA.XPS::ExtractManifestEntry@314c1881-685c-4ac3-93ef-fcef128e9f06">
+                <Property Name="CA.XPS::ExtractManifestEntry.ExtractXID">
+                    <StringValue>CA.SM::HostConfig@21-eaf30a00-e8f9-11d5-ba50-0010a4911ff4</StringValue>
+                </Property>
+                <Property Name="CA.XPS::ExtractManifestEntry.Mode">
+                    <NumberValue>1</NumberValue>
+                </Property>
+            </Object>
+            <Object Class="CA.XPS::ExtractManifestEntry" CreatedDateTime="2016-10-22T01:39:49" UpdateMethod="Explorer" UpdatedBy="os:KIMMY/Administrator" Xid="CA.XPS::ExtractManifestEntry@975ba0f5-bca1-493f-916c-81c16f01a87d">
+                <Property Name="CA.XPS::ExtractManifestEntry.ExtractXID">
+                    <StringValue>CA.SM::HostConfig@21-de3e7980-ab4d-4fc1-8b3a-d4addae3035d</StringValue>
+                </Property>
+                <Property Name="CA.XPS::ExtractManifestEntry.Mode">
+                    <NumberValue>1</NumberValue>
+                </Property>
+            </Object>
+            <Object Class="CA.XPS::ExtractManifestEntry" CreatedDateTime="2016-10-22T01:39:49" UpdateMethod="Explorer" UpdatedBy="os:KIMMY/Administrator" Xid="CA.XPS::ExtractManifestEntry@bd34469e-2c27-4ae6-bf31-4c4b526a06af">
+                <Property Name="CA.XPS::ExtractManifestEntry.ExtractXID">
+                    <StringValue>CA.SM::HostConfig@21-092c656f-544f-4411-80a2-b0b70e3c6a25</StringValue>
+                </Property>
+                <Property Name="CA.XPS::ExtractManifestEntry.Mode">
+                    <NumberValue>1</NumberValue>
+                </Property>
+            </Object>
+            <Object Class="CA.XPS::ExtractManifestEntry" CreatedDateTime="2016-10-22T01:39:49" UpdateMethod="Explorer" UpdatedBy="os:KIMMY/Administrator" Xid="CA.XPS::ExtractManifestEntry@e18d3210-68d1-4acb-9419-1c65ccc6d53b">
+                <Property Name="CA.XPS::ExtractManifestEntry.ExtractXID">
+                    <StringValue>CA.SM::HostConfig@21-15eed936-8d09-4266-8f7c-38aa917d15d9</StringValue>
+                </Property>
+                <Property Name="CA.XPS::ExtractManifestEntry.Mode">
+                    <NumberValue>1</NumberValue>
+                </Property>
+            </Object>
+        </Object>
+    <Object Class="CA.XPS::ExtractManifest" CreatedDateTime="2016-10-30T23:22:16" ExportType="Replace" UpdateMethod="Explorer" UpdatedBy="os:KIMMY/Administrator" Xid="CA.XPS::ExtractManifest@c0e9eb8a-6b1a-4db3-86d1-b52c09f5d7d0">
+            <Property Name="CA.XPS::ExtractManifest.Description">
+                <StringValue>test manifest</StringValue>
+            </Property>
+            <Property Name="CA.XPS::ExtractManifest.Name">
+                <StringValue>test manifest</StringValue>
+            </Property>
+            <Object Class="CA.XPS::ExtractManifestEntry" CreatedDateTime="2016-10-30T23:22:17" UpdateMethod="Explorer" UpdatedBy="os:KIMMY/Administrator" Xid="CA.XPS::ExtractManifestEntry@53ff2913-5bb7-409b-8780-c21ad2521e72">
+                <Property Name="CA.XPS::ExtractManifestEntry.ExtractXID">
+                    <StringValue>CA.SM::AgentConfig@21-4b7dd947-22d7-408f-a140-ee00f0c26219</StringValue>
+                </Property>
+                <Property Name="CA.XPS::ExtractManifestEntry.Mode">
+                    <NumberValue>0</NumberValue>
+                </Property>
+            </Object>
+        </Object>
+</CA.XPS>

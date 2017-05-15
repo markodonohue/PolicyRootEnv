@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SecurityData>
+        <Administrator>
+            <UserPath>LDAP://smr125sandbox1.kimmy.lab:2389 smadmin.kimmy.lab:2389/uid=smuser,ou=People,dc=Kimmy,dc=Lab</UserPath>
+            <Name>smuser</Name>
+            <Description/>
+            <Flags>4</Flags>
+            <MethodsAllowed>393215</MethodsAllowed>
+            <Workspaces/>
+        </Administrator>
+        <Administrator>
+            <UserPath>SM-ADMIN-DIRECTORY</UserPath>
+            <Name>SiteMinder Administrative UI Directory User</Name>
+            <Description>Used by the UI for authenticating administrators</Description>
+            <MethodsAllowed>4</MethodsAllowed>
+            <Workspaces/>
+            <Grant>
+                <SecurityCategory>!Admin Administration</SecurityCategory>
+                <Rights>2097152</Rights>
+            </Grant>
+        </Administrator>
+    </SecurityData>
