@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Object Class="CA.SM::Domain" CreatedDateTime="2015-07-28T00:01:29" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Domain@03-4303121d-01cf-43ad-966b-f945dee084c8">
+            <Property Name="CA.SM::Domain.IsAffiliate">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::Domain.IsDLP">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::Domain.Mode">
+                <NumberValue>2</NumberValue>
+            </Property>
+            <Property Name="CA.SM::Domain.Name">
+                <StringValue>spsTraining</StringValue>
+            </Property>
+            <Property Name="CA.SM::Domain.UserDirectoriesLink">
+                <LinkValue>
+                    <XID>CA.SM::UserDirectory@0e-2a5971b8-fecd-4baa-8e84-35c38437a0af</XID>
+                </LinkValue>
+            </Property>
+            <Object Class="CA.SM::Policy" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Policy@04-e71f174e-cc88-4574-9bd4-db98b76db3aa">
+                <Property Name="CA.SM::Policy.AllowAccess">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.IsEnabled">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.Name">
+                    <StringValue>AllowAll</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.TimeRestriction">
+                    <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.ValidateIdentity">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Object Class="CA.SM::PolicyLink" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::PolicyLink@05-0d19c0dc-a955-4156-a57f-9337c63526e0">
+                    <Property Name="CA.SM::PolicyLink.RuleLink">
+                        <LinkValue>
+                            <XID>CA.SM::Rule@0b-edc694ca-e820-47df-b2d5-54d0507fc299</XID>
+                        </LinkValue>
+                    </Property>
+                </Object>
+                <Object Class="CA.SM::PolicyLink" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::PolicyLink@05-19542637-8d31-45e3-9535-5b346e6f1952">
+                    <Property Name="CA.SM::PolicyLink.RuleLink">
+                        <LinkValue>
+                            <XID>CA.SM::Rule@0b-e4d56b1b-8a4d-4e53-9c0b-6918e93cf3b7</XID>
+                        </LinkValue>
+                    </Property>
+                </Object>
+                <Object Class="CA.SM::PolicyLink" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::PolicyLink@05-6415895c-a61f-4338-b8f8-32226a93d7a9">
+                    <Property Name="CA.SM::PolicyLink.ResponseGroupLink">
+                        <LinkValue>
+                            <XID>CA.SM::ResponseGroup@09-73d82ef9-b195-440a-b23d-7ecd079f9c07</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.SM::PolicyLink.RuleLink">
+                        <LinkValue>
+                            <XID>CA.SM::Rule@0b-b89c84d5-adcd-41f3-9966-6807c7220764</XID>
+                        </LinkValue>
+                    </Property>
+                </Object>
+                <Object Class="CA.SM::PolicyLink" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::PolicyLink@05-839671d4-970c-42ef-b9b0-add1030ccf9c">
+                    <Property Name="CA.SM::PolicyLink.RuleLink">
+                        <LinkValue>
+                            <XID>CA.SM::Rule@0b-7f5b711b-2d39-4e8b-a1b6-10302e8055f2</XID>
+                        </LinkValue>
+                    </Property>
+                </Object>
+                <Object Class="CA.SM::PolicyLink" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::PolicyLink@05-96002733-55f2-4b2d-9a62-abbf4565a2d5">
+                    <Property Name="CA.SM::PolicyLink.RuleLink">
+                        <LinkValue>
+                            <XID>CA.SM::Rule@0b-ff738782-514a-432c-b2e3-97270b6c678d</XID>
+                        </LinkValue>
+                    </Property>
+                </Object>
+                <Object Class="CA.SM::PolicyLink" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::PolicyLink@05-b6847f97-563f-409d-8117-e9762370a44a">
+                    <Property Name="CA.SM::PolicyLink.RuleLink">
+                        <LinkValue>
+                            <XID>CA.SM::Rule@0b-78829cf5-ec55-4dd2-813a-71a4966aa151</XID>
+                        </LinkValue>
+                    </Property>
+                </Object>
+                <Object Class="CA.SM::PolicyLink" CreatedDateTime="2015-07-30T01:09:25" UpdateMethod="GUI" UpdatedBy="siteminder" Xid="CA.SM::PolicyLink@05-c6ba72da-fcf4-4c92-8e85-7880da13d26f">
+                    <Property Name="CA.SM::PolicyLink.RuleLink">
+                        <LinkValue>
+                            <XID>CA.SM::Rule@0b-0df22bff-d980-4f63-b8bd-5d39a479bf71</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                </Object>
+                <Object Class="CA.SM::UserPolicy" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::UserPolicy@0f-69284596-d9f4-416c-a159-4b7300fba98d">
+                    <Property Name="CA.SM::UserPolicy.FilterClass">
+                        <StringValue>All</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.FilterPath">
+                        <StringValue>All</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyFlags">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyResolution">
+                        <NumberValue>7</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.UserDirectoryLink">
+                        <LinkValue>
+                            <XID>CA.SM::UserDirectory@0e-2a5971b8-fecd-4baa-8e84-35c38437a0af</XID>
+                        </LinkValue>
+                    </Property>
+                </Object>
+            </Object>
+            <Object Class="CA.SM::Realm" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Realm@06-1419c3b9-ea52-4f1b-99de-b3ec5506eadd">
+                <Property Name="CA.SM::Realm.AgentGroupLink">
+                    <LinkValue>
+                        <XID>CA.SM::AgentGroup@02-413b352c-c378-4dcd-83b7-e16e230507b3</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AuthSchemeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AuthScheme@0d-a3cf9dfc-f6d1-4637-b60f-4370c45a5df7</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>3600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>7200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MinUserConfidenceLevel">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>/siteminderagent/forms/stepup/</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ResourceFilter">
+                    <StringValue>/siteminderagent/forms/stepup/</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Object Class="CA.SM::Rule" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Rule@0b-7f5b711b-2d39-4e8b-a1b6-10302e8055f2">
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>Post</StringValue>
+                        <StringValue>Get</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>AllowGetPost</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>/*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                </Object>
+            </Object>
+            <Object Class="CA.SM::Realm" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Realm@06-23007304-9cfb-4e81-9444-a6e505d9ed6a">
+                <Property Name="CA.SM::Realm.AgentGroupLink">
+                    <LinkValue>
+                        <XID>CA.SM::AgentGroup@02-413b352c-c378-4dcd-83b7-e16e230507b3</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AuthSchemeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AuthScheme@0d-846f0d25-4410-4b65-89f5-7dda8c21de0b</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>3600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>7200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MinUserConfidenceLevel">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>/protected2/</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ResourceFilter">
+                    <StringValue>/protected2/</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Object Class="CA.SM::Rule" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Rule@0b-edc694ca-e820-47df-b2d5-54d0507fc299">
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>Post</StringValue>
+                        <StringValue>Get</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>AllowGetPost</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                </Object>
+            </Object>
+            <Object Class="CA.SM::Realm" CreatedDateTime="2017-03-03T00:39:25" ModifiedDateTime="2017-03-03T00:39:26" UpdateMethod="GUI" UpdatedBy="siteminder" Xid="CA.SM::Realm@06-2392810a-fff1-4e6e-a112-57f7a93c1b20">
+                <Property Name="CA.SM::Realm.AgentGroupLink">
+                    <LinkValue>
+                        <XID>CA.SM::AgentGroup@02-1d317b1d-0520-46c8-bb68-e76eb0473aa5</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AuthSchemeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AuthScheme@0d-4afc0e42-ae25-11d1-9cdd-006008aac24b</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>3600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>7200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MinUserConfidenceLevel">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>/protected3</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ResourceFilter">
+                    <StringValue>/protected3</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Object Class="CA.SM::Rule" CreatedDateTime="2017-03-03T00:39:27" UpdateMethod="GUI" UpdatedBy="siteminder" Xid="CA.SM::Rule@0b-33e14e01-f847-4f80-87a6-965da7181b31">
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>Get</StringValue>
+                        <StringValue>Post</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>AllowGetPost</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>/*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                </Object>
+            </Object>
+            <Object Class="CA.SM::Realm" CreatedDateTime="2015-07-30T01:07:52" ModifiedDateTime="2015-07-30T01:07:53" UpdateMethod="GUI" UpdatedBy="siteminder" Xid="CA.SM::Realm@06-2826a4a9-856d-49b6-96d6-c44cc1442cbd">
+                <Property Name="CA.SM::Realm.AgentGroupLink">
+                    <LinkValue>
+                        <XID>CA.SM::AgentGroup@02-413b352c-c378-4dcd-83b7-e16e230507b3</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AuthSchemeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AuthScheme@0d-a3cf9dfc-f6d1-4637-b60f-4370c45a5df7</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>3600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>7200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MinUserConfidenceLevel">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>/saprotected2/</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ResourceFilter">
+                    <StringValue>/saprotected2/</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionAssuranceLink">
+                    <LinkValue>
+                        <XID>CA.SM::SessionAssurance@5e13d2b0-43f2-4ccd-8246-50a5305df09e</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Object Class="CA.SM::Rule" CreatedDateTime="2015-07-30T01:07:53" UpdateMethod="GUI" UpdatedBy="siteminder" Xid="CA.SM::Rule@0b-0df22bff-d980-4f63-b8bd-5d39a479bf71">
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>Post</StringValue>
+                        <StringValue>Put</StringValue>
+                        <StringValue>Get</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>AllowGetPost</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                </Object>
+            </Object>
+            <Object Class="CA.SM::Realm" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Realm@06-2a4c9ec3-0c27-44a4-919d-4dd0790d45e2">
+                <Property Name="CA.SM::Realm.AgentGroupLink">
+                    <LinkValue>
+                        <XID>CA.SM::AgentGroup@02-413b352c-c378-4dcd-83b7-e16e230507b3</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AuthSchemeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AuthScheme@0d-a3cf9dfc-f6d1-4637-b60f-4370c45a5df7</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>3600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>7200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MinUserConfidenceLevel">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>/test1/</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ResourceFilter">
+                    <StringValue>/test1/</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Object Class="CA.SM::Rule" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Rule@0b-b89c84d5-adcd-41f3-9966-6807c7220764">
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>Get</StringValue>
+                        <StringValue>Post</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>AllowGetPost</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                </Object>
+            </Object>
+            <Object Class="CA.SM::Realm" CreatedDateTime="2015-07-28T00:01:29" ModifiedDateTime="2015-07-30T00:54:57" UpdateMethod="GUI" UpdatedBy="siteminder" Xid="CA.SM::Realm@06-4f7c9ae7-1c69-4dc2-919b-2611e65270e7">
+                <Property Name="CA.SM::Realm.AgentGroupLink">
+                    <LinkValue>
+                        <XID>CA.SM::AgentGroup@02-413b352c-c378-4dcd-83b7-e16e230507b3</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AuthSchemeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AuthScheme@0d-4afc0e42-ae25-11d1-9cdd-006008aac24b</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>3600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>7200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MinUserConfidenceLevel">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>/saprotected/</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ResourceFilter">
+                    <StringValue>/saprotected/</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionAssuranceLink">
+                    <LinkValue>
+                        <XID>CA.SM::SessionAssurance@cb9035af-560f-44c9-9e17-aac925becf73</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Object Class="CA.SM::Rule" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Rule@0b-78829cf5-ec55-4dd2-813a-71a4966aa151">
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>Post</StringValue>
+                        <StringValue>Put</StringValue>
+                        <StringValue>Get</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>AllowGetPost</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                </Object>
+            </Object>
+            <Object Class="CA.SM::Realm" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Realm@06-6ea87efb-5a59-4b26-8deb-7fb0161e83c6">
+                <Property Name="CA.SM::Realm.AgentGroupLink">
+                    <LinkValue>
+                        <XID>CA.SM::AgentGroup@02-413b352c-c378-4dcd-83b7-e16e230507b3</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AuthSchemeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AuthScheme@0d-a3cf9dfc-f6d1-4637-b60f-4370c45a5df7</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>3600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>7200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MinUserConfidenceLevel">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>/siteminderagent/forms/stepup/login.fcc</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ResourceFilter">
+                    <StringValue>/siteminderagent/forms/stepup/login.fcc</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Object Class="CA.SM::Rule" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Rule@0b-e4d56b1b-8a4d-4e53-9c0b-6918e93cf3b7">
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>Post</StringValue>
+                        <StringValue>Get</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>AllowGetPost</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                </Object>
+            </Object>
+            <Object Class="CA.SM::Realm" CreatedDateTime="2017-03-06T12:52:12" ModifiedDateTime="2017-03-06T12:52:14" UpdateMethod="GUI" UpdatedBy="siteminder" Xid="CA.SM::Realm@06-73fb87d4-a33e-4188-8a5e-bb43a86689ad">
+                <Property Name="CA.SM::Realm.AgentGroupLink">
+                    <LinkValue>
+                        <XID>CA.SM::AgentGroup@02-413b352c-c378-4dcd-83b7-e16e230507b3</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AuthSchemeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AuthScheme@0d-4afc0e42-ae25-11d1-9cdd-006008aac24b</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>3600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>7200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MinUserConfidenceLevel">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>/protected4/</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ResourceFilter">
+                    <StringValue>/protected4/</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Object Class="CA.SM::Rule" CreatedDateTime="2017-03-06T12:52:14" UpdateMethod="GUI" UpdatedBy="siteminder" Xid="CA.SM::Rule@0b-0c7db6d1-c42d-401c-a192-7999d9a411d2">
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>Get</StringValue>
+                        <StringValue>Post</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>AllowGetPost</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                </Object>
+            </Object>
+            <Object Class="CA.SM::Realm" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Realm@06-bb8ac1ff-d43c-411e-9935-b1e4d7b52db3">
+                <Property Name="CA.SM::Realm.AgentGroupLink">
+                    <LinkValue>
+                        <XID>CA.SM::AgentGroup@02-413b352c-c378-4dcd-83b7-e16e230507b3</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AuthSchemeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AuthScheme@0d-a3cf9dfc-f6d1-4637-b60f-4370c45a5df7</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>3600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>7200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MinUserConfidenceLevel">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>/siteminderagent/</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ResourceFilter">
+                    <StringValue>/siteminderagent/</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+            </Object>
+            <Object Class="CA.SM::Realm" CreatedDateTime="2017-03-06T13:40:10" ModifiedDateTime="2017-03-06T13:40:12" UpdateMethod="GUI" UpdatedBy="siteminder" Xid="CA.SM::Realm@06-d2466dda-5870-49ae-b6ee-4cd1219448bf">
+                <Property Name="CA.SM::Realm.AgentGroupLink">
+                    <LinkValue>
+                        <XID>CA.SM::AgentGroup@02-413b352c-c378-4dcd-83b7-e16e230507b3</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AuthSchemeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AuthScheme@0d-4afc0e42-ae25-11d1-9cdd-006008aac24b</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>3600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>7200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MinUserConfidenceLevel">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>/protected5</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ResourceFilter">
+                    <StringValue>/protected5/</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Object Class="CA.SM::Rule" CreatedDateTime="2017-03-06T13:40:13" UpdateMethod="GUI" UpdatedBy="siteminder" Xid="CA.SM::Rule@0b-98cc3320-2348-4a31-bf05-1d86b10f7f05">
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>Get</StringValue>
+                        <StringValue>Post</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>AllowGetPost</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                </Object>
+            </Object>
+            <Object Class="CA.SM::Realm" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Realm@06-ee459d8c-f1c9-43ff-b641-88b9768e191a">
+                <Property Name="CA.SM::Realm.AgentGroupLink">
+                    <LinkValue>
+                        <XID>CA.SM::AgentGroup@02-413b352c-c378-4dcd-83b7-e16e230507b3</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AuthSchemeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AuthScheme@0d-a3cf9dfc-f6d1-4637-b60f-4370c45a5df7</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>3600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>7200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MinUserConfidenceLevel">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>/</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ResourceFilter">
+                    <StringValue>/</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Object Class="CA.SM::Rule" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Rule@0b-ff738782-514a-432c-b2e3-97270b6c678d">
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>Get</StringValue>
+                        <StringValue>Post</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>AllowGetPost</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                </Object>
+            </Object>
+            <Object Class="CA.SM::Realm" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Realm@06-ee52071a-d138-420e-94c7-1ce327bcde9a">
+                <Property Name="CA.SM::Realm.AgentGroupLink">
+                    <LinkValue>
+                        <XID>CA.SM::AgentGroup@02-413b352c-c378-4dcd-83b7-e16e230507b3</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AuthSchemeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AuthScheme@0d-4afc0e42-ae25-11d1-9cdd-006008aac24b</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>3600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>7200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MinUserConfidenceLevel">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>/unprotected/</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ResourceFilter">
+                    <StringValue>/unprotected/</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+            </Object>
+            <Object Class="CA.SM::Response" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Response@07-24ef573a-fff3-40f4-8780-1de6ceee2663">
+                <Property Name="CA.SM::Response.AccessAccept">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Response.AccessChallenge">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Response.AccessReject">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Response.AgentTypeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AgentType@10-8d78bb96-ae15-11d1-9cdd-006008aac24b</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Response.Name">
+                    <StringValue>MyOFCResp</StringValue>
+                </Property>
+                <Object Class="CA.SM::ResponseAttr" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::ResponseAttr@08-4d3b97f9-e60f-4657-8766-ee7e3b05a41a">
+                    <Property Name="CA.SM::ResponseAttr.ActiveExprString">
+                        <StringValue>&lt;@ lib="smjavaapi" func="JavaActiveExpression" param="com.ca.sm.expression.activeexpression.smopenformatcookie ;;2;600;3758C6D6205A02A9485C8B1E2C9311E640349BD4E216104A;3DES_EDE/CBC/PKCS5Padding;SM_USERNAME;SM_USERLOGINNAME;" @&gt;</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.AgentTypeAttrLink">
+                        <LinkValue>
+                            <XID>CA.SM::AgentTypeAttr@11-8d78bc92-ae15-11d1-9cdd-006008aac24b</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.Flags">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.TTL">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.Value">
+                        <StringValue>MYOFC</StringValue>
+                    </Property>
+                </Object>
+                <Object Class="CA.SM::ResponseAttr" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::ResponseAttr@08-55b9daf7-7910-4c5c-815f-5fa4c7635ba3">
+                    <Property Name="CA.SM::ResponseAttr.AgentTypeAttrLink">
+                        <LinkValue>
+                            <XID>CA.SM::AgentTypeAttr@11-8d78bb90-ae15-11d1-9cdd-006008aac24b</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.Flags">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.TTL">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.Value">
+                        <StringValue>Test2=&lt;$ expr="LimitValue" $&gt;</StringValue>
+                    </Property>
+                </Object>
+                <Object Class="CA.SM::ResponseAttr" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::ResponseAttr@08-bda692a8-05f2-45f4-bc0b-f2a20f7a6150">
+                    <Property Name="CA.SM::ResponseAttr.AgentTypeAttrLink">
+                        <LinkValue>
+                            <XID>CA.SM::AgentTypeAttr@11-8d78bb90-ae15-11d1-9cdd-006008aac24b</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.Flags">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.TTL">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.Value">
+                        <StringValue>Test=&lt;$ expr="#TestExpression" $&gt;</StringValue>
+                    </Property>
+                </Object>
+                <Object Class="CA.SM::ResponseAttr" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::ResponseAttr@08-df70704a-7991-44ed-9acf-312d97d0b13f">
+                    <Property Name="CA.SM::ResponseAttr.AgentTypeAttrLink">
+                        <LinkValue>
+                            <XID>CA.SM::AgentTypeAttr@11-8d78bb90-ae15-11d1-9cdd-006008aac24b</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.Flags">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.TTL">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.Value">
+                        <StringValue>Test5=&lt;$ expr="testVariable" $&gt;</StringValue>
+                    </Property>
+                </Object>
+            </Object>
+            <Object Class="CA.SM::ResponseGroup" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::ResponseGroup@09-73d82ef9-b195-440a-b23d-7ecd079f9c07">
+                <Property Name="CA.SM::ResponseGroup.AgentTypeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AgentType@10-8d78bb96-ae15-11d1-9cdd-006008aac24b</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::ResponseGroup.Name">
+                    <StringValue>RG</StringValue>
+                </Property>
+                <Property Name="CA.SM::ResponseGroup.ResponsesLink">
+                    <LinkValue>
+                        <XID>CA.SM::Response@07-24ef573a-fff3-40f4-8780-1de6ceee2663</XID>
+                    </LinkValue>
+                </Property>
+            </Object>
+        </Object>

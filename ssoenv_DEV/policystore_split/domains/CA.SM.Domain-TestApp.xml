@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Object Class="CA.SM::Domain" CreatedDateTime="2015-07-28T00:01:29" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Domain@03-68cf9e76-907b-4cc6-b4eb-93d2e930c6c7">
+            <Property Name="CA.EPM::Application.IsAnApplication">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::Domain.IsAffiliate">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::Domain.IsDLP">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::Domain.Mode">
+                <NumberValue>3</NumberValue>
+            </Property>
+            <Property Name="CA.SM::Domain.Name">
+                <StringValue>TestApp</StringValue>
+            </Property>
+            <Property Name="CA.SM::Domain.UserDirectoriesLink">
+                <LinkValue>
+                    <XID>CA.SM::UserDirectory@0e-2a5971b8-fecd-4baa-8e84-35c38437a0af</XID>
+                </LinkValue>
+            </Property>
+            <Object Class="CA.SM::Policy" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Policy@04-bebe5b57-824e-4a07-9d6e-657ee0813b73">
+                <Property Name="CA.SM::Policy.ActiveExprString">
+                    <StringValue>&lt;@lib="EPMObjects" func="Role" param="CA.EPM::Role@443dff3f-aee4-4623-b94a-4d06fa8f7cc5"@&gt;</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.AllowAccess">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.Desc">
+                    <StringValue>* Please do not edit this policy! This is an application policy. *</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.IsEnabled">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.Name">
+                    <StringValue>AllUsers</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.TimeRestriction">
+                    <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.ValidateIdentity">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Object Class="CA.SM::PolicyLink" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::PolicyLink@05-4800335f-36af-4964-907a-94c45937c57d">
+                    <Property Name="CA.SM::PolicyLink.RuleLink">
+                        <LinkValue>
+                            <XID>CA.SM::Rule@0b-f172c865-ee5d-4563-98e6-b14ce72dc3d2</XID>
+                        </LinkValue>
+                    </Property>
+                </Object>
+                <Object Class="CA.SM::UserPolicy" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::UserPolicy@0f-1babdf15-7e33-4068-9b43-b6cc3a2e3952">
+                    <Property Name="CA.SM::UserPolicy.FilterClass">
+                        <StringValue>All</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.FilterPath">
+                        <StringValue>All</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyFlags">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyResolution">
+                        <NumberValue>7</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.UserDirectoryLink">
+                        <LinkValue>
+                            <XID>CA.SM::UserDirectory@0e-2a5971b8-fecd-4baa-8e84-35c38437a0af</XID>
+                        </LinkValue>
+                    </Property>
+                </Object>
+            </Object>
+            <Object Class="CA.SM::Realm" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Realm@06-e833c6a2-607c-45e4-82e6-e885996d0e3b">
+                <Property Name="CA.SM::Realm.AgentLink">
+                    <LinkValue>
+                        <XID>CA.SM::Agent@01-e005a2ba-ebda-4604-807c-0852e5bf04d2</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AuthSchemeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AuthScheme@0d-4afc0e42-ae25-11d1-9cdd-006008aac24b</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Desc">
+                    <StringValue>* Please do not edit this realm! This is an application realm. *</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>3600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>7200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MinUserConfidenceLevel">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>/</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ResourceFilter">
+                    <StringValue>/</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Object Class="CA.SM::Rule" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Rule@0b-f172c865-ee5d-4563-98e6-b14ce72dc3d2">
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>Get</StringValue>
+                        <StringValue>Post</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Desc">
+                        <StringValue>* Please do not edit this rule! This is an application rule. *</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>AllowGETPOST</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                </Object>
+            </Object>
+            <Object Class="CA.SM::Response" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Response@07-85265a7a-6e45-4775-81e2-a6c6948c7111">
+                <Property Name="CA.SM::Response.AccessAccept">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Response.AccessChallenge">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Response.AccessReject">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Response.AgentTypeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AgentType@10-8d78bb96-ae15-11d1-9cdd-006008aac24b</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Response.Desc">
+                    <StringValue>* Please do not edit this response! This is an application response. *</StringValue>
+                </Property>
+                <Property Name="CA.SM::Response.Name">
+                    <StringValue>AddHeaderResponse</StringValue>
+                </Property>
+                <Object Class="CA.SM::ResponseAttr" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::ResponseAttr@08-67189ef2-9df1-4973-8e04-a2f32eba2ce3">
+                    <Property Name="CA.SM::ResponseAttr.AgentTypeAttrLink">
+                        <LinkValue>
+                            <XID>CA.SM::AgentTypeAttr@11-8d78bb90-ae15-11d1-9cdd-006008aac24b</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.Flags">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.TTL">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.Value">
+                        <StringValue>ALLOWField=Test1</StringValue>
+                    </Property>
+                </Object>
+            </Object>
+            <Object Class="CA.EPM::Role" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.EPM::Role@443dff3f-aee4-4623-b94a-4d06fa8f7cc5">
+                <Property Name="CA.EPM::Role.Expression">
+                    <StringValue>TRUE</StringValue>
+                </Property>
+                <Property Name="CA.EPM::Role.Flags">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.EPM::Role.Name">
+                    <StringValue>AllUsers</StringValue>
+                </Property>
+                <Property Name="CA.EPM::Role.PoliciesLink">
+                    <LinkValue>
+                        <XID>CA.SM::Policy@04-bebe5b57-824e-4a07-9d6e-657ee0813b73</XID>
+                    </LinkValue>
+                </Property>
+            </Object>
+        </Object>

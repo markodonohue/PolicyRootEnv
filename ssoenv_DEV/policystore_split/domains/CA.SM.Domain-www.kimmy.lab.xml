@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Object Class="CA.SM::Domain" CreatedDateTime="2015-07-28T00:01:29" ExportType="Replace" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Domain@03-3a58d444-f692-4586-aa93-e93dd1977e65">
+            <Property Name="CA.SM::Domain.Desc">
+                <StringValue>IIS 7.5</StringValue>
+            </Property>
+            <Property Name="CA.SM::Domain.IsAffiliate">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::Domain.IsDLP">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::Domain.Mode">
+                <NumberValue>2</NumberValue>
+            </Property>
+            <Property Name="CA.SM::Domain.Name">
+                <StringValue>www.kimmy.lab</StringValue>
+            </Property>
+            <Property Name="CA.SM::Domain.UserDirectoriesLink">
+                <LinkValue>
+                    <XID>CA.SM::UserDirectory@0e-2a5971b8-fecd-4baa-8e84-35c38437a0af</XID>
+                </LinkValue>
+            </Property>
+            <Object Class="CA.SM::Policy" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Policy@04-750a1e1d-fa7d-441f-aea3-07472f1d1c27">
+                <Property Name="CA.SM::Policy.AllowAccess">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.IsEnabled">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.Name">
+                    <StringValue>Allow Policy</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.TimeRestriction">
+                    <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                </Property>
+                <Object Class="CA.SM::PolicyLink" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::PolicyLink@05-136dcc85-5707-4217-aac8-0a5c0d44d267">
+                    <Property Name="CA.SM::PolicyLink.ResponseLink">
+                        <LinkValue>
+                            <XID>CA.SM::Response@07-176bac96-ec14-4e85-868d-764f744a2268</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.SM::PolicyLink.RuleLink">
+                        <LinkValue>
+                            <XID>CA.SM::Rule@0b-4b3f7c42-4fe4-4641-84f5-80f088dda5e0</XID>
+                        </LinkValue>
+                    </Property>
+                </Object>
+                <Object Class="CA.SM::PolicyLink" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::PolicyLink@05-ebb43fa8-a734-40f3-8712-88d6e46b211e">
+                    <Property Name="CA.SM::PolicyLink.RuleLink">
+                        <LinkValue>
+                            <XID>CA.SM::Rule@0b-c67512f1-9f3e-4579-bd8b-feee704614fd</XID>
+                        </LinkValue>
+                    </Property>
+                </Object>
+                <Object Class="CA.SM::UserPolicy" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::UserPolicy@0f-348b11f1-62ee-43f9-9cdd-cdcaf23ca52c">
+                    <Property Name="CA.SM::UserPolicy.FilterClass">
+                        <StringValue>group</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.FilterPath">
+                        <StringValue>CN=APJ SiteMinder Support,CN=Builtin,DC=kimmy,DC=lab</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyFlags">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyResolution">
+                        <NumberValue>2</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.UserDirectoryLink">
+                        <LinkValue>
+                            <XID>CA.SM::UserDirectory@0e-2a5971b8-fecd-4baa-8e84-35c38437a0af</XID>
+                        </LinkValue>
+                    </Property>
+                </Object>
+                <Object Class="CA.SM::UserPolicy" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::UserPolicy@0f-e8c38954-7103-4373-84cd-bbf0052c3340">
+                    <Property Name="CA.SM::UserPolicy.FilterClass">
+                        <StringValue>group</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.FilterPath">
+                        <StringValue>CN=Japan SiteMinder Engineers,CN=Builtin,DC=kimmy,DC=lab</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyFlags">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyResolution">
+                        <NumberValue>2</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.UserDirectoryLink">
+                        <LinkValue>
+                            <XID>CA.SM::UserDirectory@0e-2a5971b8-fecd-4baa-8e84-35c38437a0af</XID>
+                        </LinkValue>
+                    </Property>
+                </Object>
+                <Object Class="CA.SM::UserPolicy" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::UserPolicy@0f-f71a16bd-754a-4be4-8f28-ef6b835061be">
+                    <Property Name="CA.SM::UserPolicy.FilterClass">
+                        <StringValue>group</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.FilterPath">
+                        <StringValue>CN=Australia SiteMinder Engineers,CN=Builtin,DC=kimmy,DC=lab</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyFlags">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyResolution">
+                        <NumberValue>2</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.UserDirectoryLink">
+                        <LinkValue>
+                            <XID>CA.SM::UserDirectory@0e-2a5971b8-fecd-4baa-8e84-35c38437a0af</XID>
+                        </LinkValue>
+                    </Property>
+                </Object>
+            </Object>
+            <Object Class="CA.SM::Realm" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Realm@06-b0f20a61-53f2-4484-af77-81e0df0a6379">
+                <Property Name="CA.SM::Realm.AgentLink">
+                    <LinkValue>
+                        <XID>CA.SM::Agent@01-5f7e56d7-d856-4ec2-9f6a-3536b72ac87a</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AuthSchemeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AuthScheme@0d-a3cf9dfc-f6d1-4637-b60f-4370c45a5df7</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Desc">
+                    <StringValue>R12.5 Bookshelf</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>3600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>7200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MinUserConfidenceLevel">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>R12.5 Bookshelf</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ResourceFilter">
+                    <StringValue>/CA SiteMinder r12.5-ENU/</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Object Class="CA.SM::Rule" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Rule@0b-4b3f7c42-4fe4-4641-84f5-80f088dda5e0">
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>OnAuthAccept</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>OnAuthAccept</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                </Object>
+                <Object Class="CA.SM::Rule" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Rule@0b-c67512f1-9f3e-4579-bd8b-feee704614fd">
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>Get</StringValue>
+                        <StringValue>Post</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>Access</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                </Object>
+            </Object>
+            <Object Class="CA.SM::Response" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::Response@07-176bac96-ec14-4e85-868d-764f744a2268">
+                <Property Name="CA.SM::Response.AccessAccept">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Response.AccessChallenge">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Response.AccessReject">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Response.AgentTypeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AgentType@10-8d78bb96-ae15-11d1-9cdd-006008aac24b</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Response.Name">
+                    <StringValue>OnAuthentication</StringValue>
+                </Property>
+                <Object Class="CA.SM::ResponseAttr" CreatedDateTime="2015-07-28T00:01:29" UpdateMethod="Internal" UpdatedBy="XPSDictionary::Import" Xid="CA.SM::ResponseAttr@08-24d6e1f9-6398-42ce-801e-d5a1d4596c04">
+                    <Property Name="CA.SM::ResponseAttr.AgentTypeAttrLink">
+                        <LinkValue>
+                            <XID>CA.SM::AgentTypeAttr@11-8d78bb90-ae15-11d1-9cdd-006008aac24b</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.Flags">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.TTL">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.Value">
+                        <StringValue>UserTitle=&lt;% userattr="title" %&gt;</StringValue>
+                    </Property>
+                </Object>
+            </Object>
+        </Object>
